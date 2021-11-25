@@ -1,0 +1,91 @@
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* [role=button] {
+  cursor: pointer;
+}
+
+.app-content {
+ padding-top: 60px !important;
+}
+
+.error-message small {
+  font-weight: bold;
+}  
+
+form.disabled {
+  opacity: 0.6;
+}
+
+.modal {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.modal-content {
+  border: none !important;
+}
+
+button.link {
+  color: white;
+  background: none;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+
+button.dropdown-item:active {
+  color: inherit;
+}
+
+button.user-link {
+  padding: 0.9rem 1.25rem 0.9rem 1rem;
+  display: flex;
+  align-items: center;
+}
+
+button.user-link .user-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  float: left;
+  margin-right: 0.8rem;
+}
+
+button.link .ficon {
+  color: white !important;
+}
+
+button.link .bx {
+  font-size: 1.78rem;
+  margin: 0;
+  vertical-align: middle;
+}
+
+button.link .bx-small {
+  font-size: 1.3rem;
+}
+
+.react-nav-link {
+  padding-right: .85rem;
+  padding-left: .85rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
